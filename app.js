@@ -24,11 +24,11 @@ function swapImage(){
 }
 
 // // Third Type
-// function swapImage(){
-//     console.log(event.type)
-//     if (event.type == "mouseover"){
-//         event.target.src = "https:st.depositphotos.com/28789600/51824/i/450/depositphotos_518242018-stock-photo-golden-colors-most-beautiful-sunset.jpg"
-//     }else{
-//         event.target.src = "https://st.depositphotos.com/2001755/3622/i/450/depositphotos_36220949-stock-photo-beautiful-landscape.jpg"
-//     }
-// }
+function swapImage(){
+    console.log(event.type)
+    if (event.type == "mouseover"){
+        event.target.src = "https:st.depositphotos.com/28789600/51824/i/450/depositphotos_518242018-stock-photo-golden-colors-most-beautiful-sunset.jpg"
+    }else{
+        event.target.src = "https://st.depositphotos.com/2001755/3622/i/450/depositphotos_36220949-stock-photo-beautiful-landscape.jpg"
+    }
+}
